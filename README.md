@@ -18,8 +18,9 @@
         </form>
 <div class="card-body">
         <div class="row row-cols-1 row-cols-md-3 g-4">
+             @foreach ($orders as $order)
             <div class="col">
-            <@foreach ($orders as $order)>
+            
                 <div class="card">
                 <img src="..." class="card-img-top" alt="...">
                 <div class="card-body">
